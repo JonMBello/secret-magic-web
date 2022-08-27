@@ -9,7 +9,7 @@ function SecretMagicApp() {
     setActive(false);
   };
 
-  function handleSubmit(e) {
+  const handleSubmit = (e) => {
     e.preventDefault();
     setActive(true);
     document.getElementById("loginForm").reset();  
