@@ -12,8 +12,7 @@ function SecretMagicApp() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setActive(true);
-    document.getElementById("loginForm").reset();  
-    console.log('You clicked submit.');
+    document.getElementById("loginForm").reset();
   } 
 
 
